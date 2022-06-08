@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
   <title>EigenProject</title>
 </head>
 <body>
@@ -26,16 +27,24 @@
     <li><a href="#home">Home</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#ervaring">Experience</a></li>
     <li><a href="#contact">Contact</a></li>
     </ul>
     </div>
     <section class="banner-area" id="home">
-      <h1>Welkom op mijn website...</h1>
+      <h1 class="h1-text">
+        <span>Ik ben een</span>
+        <div class="message">
+          <div class="word1">student</div>
+          <div class="word2">programmeur</div>
+          <div class="word3">leergierig persoon</div>
+        </div>
+      </h1>
     </section>
   <section class="about-area" id="about">
   <div class="section-paginas"  >
     <div class="grid">
-    <img src="./img/Wie-ben-ik.jpg" alt="" srcset=""
+    <img src="./img/Dexter.png" alt="" srcset=""
     class="slide-in from-left">
         <p class="slide-in from-right"> 
           Ik ben Dexter van Renswoude een 18 jarige jongen uit Nieuwegein, ik zit op school bij het MBO Utrecht.
@@ -46,23 +55,39 @@
 <section class="port-area" id="portfolio">
     <div class="grid">
       <p class="slide-in from-left">
-        tijdens deze opleiding heb ik meerdere projecten moeten maken, hier is een deel wat ik moest maken van het project.
-        (september 2021) <a href="./voorbeeld.html">klik hier</a>
+        Tijdens mijn opleiding heb ik moeten werken aan groepsprojecten, hierbij is een voorbeeld van een pagina die ik moest maken.
+        (september 2021) <a href="./voorbeeld.html" class="button">klik hier</a>
       </p>
       <img src="./img/projecten.jpg" alt="" srcset=""
       class="slide-in from-right">
     </div>
   </section>
-    <section class="contact-area" id="contact">
-          <div class="grid">
-            <img src="./img/contact.jpg" alt="" srcset=""
-            class="slide-in from-left">
-              <p class="slide-in from-right">
-                Als u contact met mij wilt opnemen kan dat via telefoon of email, als u meer van mijn code wilt zien kunt u op het GitHub icon klikken dat verwijst u naar mijn GitHub profiel.
-                <a href=" tel:+31 6 45945071" class="fa fa-phone"></a>
-                <a href = "mailto: dextervanrenswoude@gmail.com" class="fa fa-envelope"></a>
-                <a href= "https://github.com/dextervr" class="fa fa-github"></a>
-              </p>
+  <section class="exp-area" id="ervaring">
+    <div class="section-paginas"  >
+      <div class="grid">
+      <img src="./img/html_css_javascript.jpeg" alt="" srcset=""
+      class="slide-in from-left">
+          <p class="slide-in from-right"> 
+            Ik heb ervaring met HTML, CSS, JavaScript en PHP
+            ook weet ik hoe ik moet werken met Devops en Trello.
+
+          </p>
+      </div>
+          </section>
+            <section class="contact-area" id="contact">
+              <div class="parent">
+                <div class="text-contact">
+                <p class="contact">
+                  Als u contact met mij wilt opnemen kan dat via telefoon of email,
+                  als u meer van mijn code wilt zien kunt u op het GitHub icon klikken
+                  dat verwijst u naar mijn GitHub profiel.
+                </div>
+                <div class="socials">
+                  <a href=" tel:+31 6 45945071" class="fa fa-phone  fa-2x" style="color:white" ></a>
+                  <a href = "mailto: dextervanrenswoude@gmail.com" class="fa fa-envelope  fa-2x" style="color:white"></a>
+                  <a href= "https://github.com/dextervr" class="fa fa-github  fa-2x"   style="color:white"></a>
+                </div>
+              </div>
             </section>
           </div>
         </div>
@@ -70,3 +95,5 @@
     <script src="fade-in.js"></script>
   </body>
 </html>
+
+
